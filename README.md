@@ -102,9 +102,12 @@ for training while remaining of the dataset values were used for testing.
 We have collected more than 2000 instances of data from real-time observation and checked the accidents-prone probability on that dataset with the help of a machine learning algorithm. <br>
 
 ![Screenshot 2024-03-27 150313](https://github.com/AntimaDwivedi/Accident-Prone-Situation-Prediction-of-Vehicle-Using-Machine-Learning-Approaches/assets/56269029/cb6153bb-17d2-445e-9041-ade20078b211)
+<br>
 
 #### Experiments and Results  #### 
-For the prediction experiments, each machine learning model computed the accuracy and F1 score of the dataset with  the help of a confusion matrix. The best-obtained result (Accuracy=0.98) is 13 percent points higher than the K-Nearest  Neighbour algorithm. The results can be observed from Table 1. Logistic Regression is very close to nearly  perfect, as can be seen from the table. <br>
+For the prediction experiments, each machine learning model computed the accuracy and F1 score of the dataset with  the help of a confusion matrix. The best-obtained result (Accuracy=0.98) is 13 percent points higher than the K-Nearest  Neighbour algorithm. The results can be observed from Table.<br>
+
+Logistic Regression is very close to nearly  perfect, as can be seen from the table. <br>
 ![Screenshot 2024-03-27 150342](https://github.com/AntimaDwivedi/Accident-Prone-Situation-Prediction-of-Vehicle-Using-Machine-Learning-Approaches/assets/56269029/7f91ecd5-8672-4e1b-b004-88561fdb09ac)
 
 #### Conclusions ####  
