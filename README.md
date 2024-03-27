@@ -53,18 +53,18 @@ Yawn is a sign of getting drowsy if a person is getting sleepy, there is a high 
 That is why we are using this factor in our dataset to train our model to detect the accurate situation of the driver.
 Yawn can be detected by using the same method of detecting the eye aspect ratio which is landmarks detection.
 Yawn will be detected by calculating **MAR which is Mouth Aspect Ratio**. After predicting the landmarks, only the
-mouth landmarks are required to calculate the Mouth Aspect Ratio (MAR) to predict if the driver is drowsy or not.
-**Mouth Aspect Ratio=|p1-p2|** (2)
+mouth landmarks are required to calculate the Mouth Aspect Ratio (MAR) to predict if the driver is drowsy or not.<br>
+**Mouth Aspect Ratio=|p1-p2|** 
 We are calculating the Mouth aspect ratio (MAR) by measuring the distance between the upper lip and lower lips, as shown
 in the Figures.<br>
 ![Screenshot 2024-03-27 150413](https://github.com/AntimaDwivedi/Accident-Prone-Situation-Prediction-of-Vehicle-Using-Machine-Learning-Approaches/assets/56269029/3219c17f-6a81-4515-9b64-4bcac20334f5)
 ![Screenshot 2024-03-27 150424](https://github.com/AntimaDwivedi/Accident-Prone-Situation-Prediction-of-Vehicle-Using-Machine-Learning-Approaches/assets/56269029/25d41c15-1d53-4731-af3b-33090c0b67d9)
 
 
-**Fig. Illustration of points estimation:** <br> 
+**Illustration of points estimation:** <br> 
 (a) Distance of points for an open mouth, and <br>
 (b) Distance of points for a closed mouth <br>
-Here if the distance between and lower lips is less than 20 the value of ‘YAWN_THRESHOLD’ will remain zero
+Here if the distance between and lower lips are less than 20 the value of ‘YAWN_THRESHOLD’ will remain zero
 and if the distance between the upper lip and the lower lip is greater than 20 then the value of ‘YAWN_THRESHOLD’
 turns out to be 1.
 ##### (3) PULSE_THRESHOLD: ##### 
