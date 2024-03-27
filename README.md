@@ -88,7 +88,7 @@ algorithm:
 4. Note down the above three compared values in terms of 0 and 1 to calculate our target variable.
 5. Lastly, RESULT_ACCIDENT=1 if any of the values observed above result in 1, otherwise 0.
 
-3.3 Prediction Module
+####  Prediction Module ####
 With the help of Scikit learn library, we were able to fit the prediction models to our dataset. We executed a binary
 classification task, where the featured values result in accident if the threshold values of the features are exceeded
 according to the algorithm, otherwise it results in no accident.
@@ -96,12 +96,18 @@ In this paper, we tested 4 machine learning models, namely Logistic Regression, 
 Nearest Neighbours and Naïve Bayes. We compared the accuracy and F1 Scores of all these models as fitted on
 the dataset to obtain the model that has the highest accuracy for our dataset. 75% of the dataset values were used
 for training while remaining of the dataset values were used for testing.
-3.4Algorithms
+#### Algorithms ####
 We have collected more than 2000 instance of data from the real time observation and checked the accidents
 prone probability on that dataset with the help of machine learning algorithm.
 
 ![Screenshot 2024-03-27 150313](https://github.com/AntimaDwivedi/Accident-Prone-Situation-Prediction-of-Vehicle-Using-Machine-Learning-Approaches/assets/56269029/cb6153bb-17d2-445e-9041-ade20078b211)
 
+#### Experiments and Results  #### 
+For the prediction experiments, each machine learning model computed accuracy and F1 Sore of the dataset with  the help of confusion matrix. The best obtained result (Accuracy=0.98) is 13 percent points higher than K-Nearest  Neighbour algorithm. The results can be observed from Table 1. Logistic Regression is very close to nearly  perfect, as can be seen from the table.  
 ![Screenshot 2024-03-27 150342](https://github.com/AntimaDwivedi/Accident-Prone-Situation-Prediction-of-Vehicle-Using-Machine-Learning-Approaches/assets/56269029/7f91ecd5-8672-4e1b-b004-88561fdb09ac)
+
+#### Conclusions ####  
+The proposed method works on stating many values according to the researched count of factors that are greatly responsible for car accidents all over the world, and especially in India. With the help of dataset created,  we built a formula that helps us in establishing the discrete binary values of the possibility of an accident. This  novel dataset has been very helpful in predicting the accuracy of the approach that we began working with, i.e.,  the factors that contribute to road accidents. According to previous data available as well as the results obtained  from our predictions, we successfully established the relationship between the factors that we started with and the  target variable.
+
 
 
