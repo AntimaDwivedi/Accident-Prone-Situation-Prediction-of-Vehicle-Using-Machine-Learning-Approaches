@@ -39,11 +39,11 @@ aspect ratio is calculated by using the landmark model of machine learning. When
 of EAR is fixed but as soon as the subject’s eye is closed, the value drops to 0. In this way, the aspect ratio is 
 useful for detecting drowsiness or sleepiness of the driver. There is a specific formula that we are using to calculate the eye-aspect ratio that is given below: <br>
  
-     **EAR = |p1-p5|+|p2-p4| / 2|p0-p3|** <br>
+       EAR = |p1-p5|+|p2-p4| / 2|p0-p3| 
 ![Screenshot 2024-03-27 150437](https://github.com/AntimaDwivedi/Accident-Prone-Situation-Prediction-of-Vehicle-Using-Machine-Learning-Approaches/assets/56269029/86386ffa-3f70-47cf-b27d-4c7cae94b4f4)
 ![Screenshot 2024-03-27 150446](https://github.com/AntimaDwivedi/Accident-Prone-Situation-Prediction-of-Vehicle-Using-Machine-Learning-Approaches/assets/56269029/d7817eb6-f3d2-4327-af02-c3d446312496)
 
-**where, p1, p2, p3, p4, p5, p6 are landmark points on drivers face detected by camera** <br>
+**where, p1, p2, p3, p4, p5, p6 are landmark points on drivers face detected by camera.** <br>
 
 If the value of **‘EYE ASPECT RATIO’** is greater than 0.35, then the model will consider the driver as in an active state, and the value of ‘EAR_THRESHOLD’ remains zero, and as soon as
 If the value goes less than 0.35 then the model will consider the driver to become inactive and the value of 'EAR_THRESHOLD’ will turn out to be 1.
@@ -53,8 +53,9 @@ Yawn is a sign of getting drowsy if a person is getting sleepy, there is a high 
 That is why we are using this factor in our dataset to train our model to detect the accurate situation of the driver.
 Yawn can be detected by using the same method of detecting the eye aspect ratio which is landmarks detection.
 Yawn will be detected by calculating **MAR which is Mouth Aspect Ratio**. After predicting the landmarks, only the
-mouth landmarks are required to calculate the Mouth Aspect Ratio (MAR) to predict if the driver is drowsy or not.<br>
-**Mouth Aspect Ratio=|p1-p2|** 
+mouth landmarks are required to calculate the Mouth Aspect Ratio (MAR) to predict if the driver is drowsy or not. <br>
+
+       Mouth Aspect Ratio = |p1-p2| 
 We are calculating the Mouth aspect ratio (MAR) by measuring the distance between the upper lip and lower lips, as shown
 in the Figures.<br>
 ![Screenshot 2024-03-27 150413](https://github.com/AntimaDwivedi/Accident-Prone-Situation-Prediction-of-Vehicle-Using-Machine-Learning-Approaches/assets/56269029/3219c17f-6a81-4515-9b64-4bcac20334f5)
