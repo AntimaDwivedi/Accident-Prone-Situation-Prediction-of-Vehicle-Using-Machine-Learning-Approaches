@@ -58,6 +58,8 @@ mouth landmarks are required to calculate Mouth Aspect Ratio (MAR) to predict if
 **Mouth Aspect Ratio=|p1-p2|** (2)
 We are calculating Mouth aspect ratio (MAR) by measuring distance between upper lip and lower lips, as shown
 in the Fig. 3
+![Screenshot 2024-03-27 150424](https://github.com/AntimaDwivedi/Accident-Prone-Situation-Prediction-of-Vehicle-Using-Machine-Learning-Approaches/assets/56269029/25d41c15-1d53-4731-af3b-33090c0b67d9)
+![Screenshot 2024-03-27 150413](https://github.com/AntimaDwivedi/Accident-Prone-Situation-Prediction-of-Vehicle-Using-Machine-Learning-Approaches/assets/56269029/3219c17f-6a81-4515-9b64-4bcac20334f5)
 
 
 Fig 3. Illustration of points estimation: (a) Distance of points for an open mouth, and (b) Distance of points for a closed mouth
@@ -98,10 +100,8 @@ for training while remaining of the dataset values were used for testing.
 We have collected more than 2000 instance of data from the real time observation and checked the accidents
 prone probability on that dataset with the help of machine learning algorithm.
 
+![Screenshot 2024-03-27 150313](https://github.com/AntimaDwivedi/Accident-Prone-Situation-Prediction-of-Vehicle-Using-Machine-Learning-Approaches/assets/56269029/cb6153bb-17d2-445e-9041-ade20078b211)
+
 ![Screenshot 2024-03-27 150342](https://github.com/AntimaDwivedi/Accident-Prone-Situation-Prediction-of-Vehicle-Using-Machine-Learning-Approaches/assets/56269029/7f91ecd5-8672-4e1b-b004-88561fdb09ac)
 
-![Screenshot 2024-03-27 150313](https://github.com/AntimaDwivedi/Accident-Prone-Situation-Prediction-of-Vehicle-Using-Machine-Learning-Approaches/assets/56269029/cb6153bb-17d2-445e-9041-ade20078b211)
-![Screenshot 2024-03-27 150424](https://github.com/AntimaDwivedi/Accident-Prone-Situation-Prediction-of-Vehicle-Using-Machine-Learning-Approaches/assets/56269029/25d41c15-1d53-4731-af3b-33090c0b67d9)
 
-
-![Screenshot 2024-03-27 150413](https://github.com/AntimaDwivedi/Accident-Prone-Situation-Prediction-of-Vehicle-Using-Machine-Learning-Approaches/assets/56269029/3219c17f-6a81-4515-9b64-4bcac20334f5)
