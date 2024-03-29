@@ -25,7 +25,7 @@ techniques. Over 2,000 instances of all such features were calculated by simulat
 environment and obtaining the value of all features for 4 different drivers, 1 male, and 4 female test subjects. All 
 data collection and processing procedures described in this work were implemented in Python by the authors. 
 These features may be stated as follows: 
-1. **EYE ASPECT RATIO:** Contains the values of the percentage of eyes of the driver. 
+1. **EYE ASPECT RATIO:** Contains the values of percentage of eye-opened of the driver. 
 2. **MOUTH OPEN RATIO:** Contains the values of mouth opened and duration of mouth opening of the 
 driver. 
 3. **PULSE_VAL:** Contains the pulse value of the driver. <br>
@@ -73,7 +73,7 @@ negative and 1 for positive).
 Long-term monitoring of human heart rate is of great importance and
 provides a method, namely, Photo plethysmography (PPG) can provide a means of heart rate measurement by
 detecting blood volume pulse (BVP) in the human face. Heart rate means the number of beats per minute. We use
-Haar feature and cascade classifier to detect the heart rate of the driver from face recognition. According to the threshold value is 12 bpm. We have applied a threshold value for the heart rate range if the value of
+Haar feature and cascade classifier to detect the heart rate of the driver from face recognition.The ideal  threshold value is 12 bpm. We have applied a threshold value for the heart rate range if the value of
 heart rate is less than 90 then the value of ‘PULSE_VAL’ remains 0 and if the value of heart rate is greater than
 90 then the ‘PULSE_VAL’ value will become 1.
 During blood circulation in the body, the pumping of blood causes variations
