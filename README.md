@@ -66,19 +66,15 @@ turns out to be 1.
 #### (3) PULSE_THRESHOLD: #### 
 Contains the values indicating whether or not the driver's pulse is unsuitable (0 for
 negative and 1 for positive).
-Long-term monitoring of human heart rate is of great importance and
-provides a method, namely, Photo plethysmography (PPG) can provide a means of heart rate measurement by
-detecting blood volume pulse (BVP) in the human face. Heart rate means the number of beats per minute. We use
-Haar feature and cascade classifier to detect the heart rate of the driver from face recognition.The ideal  threshold value is 12 bpm. We have applied a threshold value for the heart rate range if the value of
+Photoplethysmography (PPG) is a technique that  can provide a means of heart rate measurement by
+detecting **blood volume pulse (BVP)** in the human face. Heart rate means the number of beats per minute. We use
+_**Haar feature**_ and _**cascade classifier**_ to detect the heart rate of the driver from face recognition. The ideal  threshold value is 12 bpm. We have applied a threshold value for the heart rate range if the value of
 heart rate is less than 90 then the value of ‘PULSE_VAL’ remains 0 and if the value of heart rate is greater than
 90 then the ‘PULSE_VAL’ value will become 1.
-During blood circulation in the body, the pumping of blood causes variations
-in the color of skin, that go unnoticed by human eyes but it can be detected with the help of a camera. The most
-suitable place to perform this is the forehead of the subject and the size of the rectangle depends on the space.
 
 ## Calculating target variable ##
-The target variable of our dataset, i.e., ‘RESULT_ACCIDENT’ stores the possibility of accident occurrence given
-a certain value of the forestated features. The value of the target variable is calculated with the help of the following
+The target variable of our dataset, i.e., **‘RESULT_ACCIDENT’** stores the possibility of accident occurrence given
+a certain value of the forested features. The value of the target variable is calculated with the help of the following
 algorithm:
 1. Observe the value of EAR_THRESHOLD and compare it with the real-time EAR. <br>
 2. Observe the value of PULSE_THRESHOLD and compare it with the real-time PUlSE_VAL <br>
@@ -90,10 +86,15 @@ algorithm:
 With the help of the Scikit Learn library, we were able to fit the prediction models into our dataset. We executed a binary
 classification task, where the featured values result in an accident if the threshold values of the features are exceeded
 according to the algorithm, otherwise, it results in no accident.
-In this paper, we tested 4 machine learning models, namely Logistic Regression, Support Vector Machine, K
-Nearest Neighbours and Naïve Bayes. We compared the accuracy and F1 Scores of all these models as fitted on
-the dataset to obtain the model that has the highest accuracy for our dataset. 75% of the dataset values were used
-for training while remaining of the dataset values were used for testing.
+In this paper, we tested 4 machine-learning models, namely <br>
+**Logistic Regression,** <br>
+**Support Vector Machine,** <br>
+**KNearest Neighbours and,** <br>
+**Naïve Bayes.** <br>
+We compared the accuracy and F1 Scores of all these models as fitted on
+the dataset to obtain the model with the highest accuracy on our dataset. <br>
+**75% of the dataset values were used for training while remaining of the dataset values were used for testing.**
+<br>
 
 ## Algorithms ##
 We have collected more than 2000 instances of data from real-time observation and checked the accidents-prone probability on that dataset with the help of a machine learning algorithm. <br>
