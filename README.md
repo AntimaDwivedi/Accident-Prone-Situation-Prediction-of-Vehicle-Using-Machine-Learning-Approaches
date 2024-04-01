@@ -44,7 +44,7 @@ If the value of **‘EYE ASPECT RATIO’** is greater than 0.35, then the model 
 If the value goes less than 0.35 then the model will consider the driver to become inactive and the value of 'EAR_THRESHOLD’ will turn out to be 1.
 #### (2) YAWN_THRESHOLD: ####
 Contains the values indicating whether or not the driver is yawning.
-Yawn is a sign of getting drowsy if a person is getting sleepy, there is a high possibility of getting a yawn
+Yawn is a sign of getting drowsy. If a person is getting sleepy, there is a high possibility of getting a yawn.
 That is why we are using this factor in our dataset to train our model to detect the accurate situation of the driver.
 Yawn can be detected by using the same method of detecting the eye aspect ratio which is landmarks detection.
 Yawn will be detected by calculating **MAR which is Mouth Aspect Ratio**. After predicting the landmarks, only the
