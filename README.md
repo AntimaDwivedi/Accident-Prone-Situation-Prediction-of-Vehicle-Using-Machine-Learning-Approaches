@@ -60,7 +60,7 @@ in the Figures.<br>
 **Illustration of points estimation:** <br> 
 (a) Distance of points for an open mouth, and <br>
 (b) Distance of points for a closed mouth <br>
-Here if the distance between and lower lips are less than 20 the value of ‘YAWN_THRESHOLD’ will remain zero
+Here if the distance between the upper and lower lips is less than 20 the value of ‘YAWN_THRESHOLD’ will remain zero
 and if the distance between the upper lip and the lower lip is greater than 20 then the value of ‘YAWN_THRESHOLD’
 turns out to be 1.
 #### (3) PULSE_THRESHOLD: #### 
