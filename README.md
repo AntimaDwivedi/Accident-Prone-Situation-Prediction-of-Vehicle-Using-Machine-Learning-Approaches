@@ -1,9 +1,5 @@
 # Accident-Prone-Situation-Prediction-of-Vehicle-Using-Machine-Learning-Approaches
-An increase in the number of deaths due to road accidents every year sheerly due to negligence or emotional behavior
-of drivers has become a major problem in India. People driving late at night, especially truck drivers, due to
-reasons such as fatigue, lethargy, long work hours, and sleepiness, often lose control of the road and cause
-accidents that may or may not be fatal to the passengers but surely result in loss. The best way to avoid these
-kinds of fatal circumstances should be to avoid driving at all when not feeling up to the task.
+#### An increase in the number of deaths due to road accidents every year sheerly due to negligence or emotional behavior of drivers has become a major problem in India. People driving late at night, especially truck drivers, due to reasons such as fatigue, lethargy, long work hours, and sleepiness, often lose control of the road and cause accidents that may or may not be fatal to the passengers but surely result in loss. The best way to avoid thesekinds of fatal circumstances should be to avoid driving at all when not feeling up to the task. ####
 
 Thus, the project proposes a model that can warn the driver whether the car cabin is prone to accidents or
 not. This will be achieved by measuring various characteristics of the moving car such as:<br>
@@ -15,17 +11,17 @@ The  objective of the project is to predict the possibility of an accident based
 their respective thresholds in the form of discrete values. We have collected **more than 2000 instances** of data from
 the real-time observation and checked the accident-prone probability on that dataset with the help of a machine
 learning algorithm.<br><br>
-The accuracy of machine learning models, based on these values shall help us in evaluating the features that must
-be present in an accident prevention system inside a car cabin.
 
-###  Data Procurement and Processing  ###
+#### The accuracy of machine learning models, based on these values shall help us in evaluating the features that must be present in an accident prevention system inside a car cabin. ####
+
+##  Data Procurement and Processing  ##
 Owing to the novelty of our work, limited datasets were available in the field of accident detection using researched 
 features, so we extracted the features that will be focussed in this study by using certain programmed detection 
 techniques. Over 2,000 instances of all such features were calculated by simulating an automobile cabin 
 environment and obtaining the value of all features for 4 different drivers, 1 male, and 4 female test subjects. All 
 data collection and processing procedures described in this work were implemented in Python by the authors. 
 These features may be stated as follows: 
-1. **EYE ASPECT RATIO:** Contains the values of percentage of eye-opened of the driver. 
+1. **EYE ASPECT RATIO:** Contains the values of the percentage of eye-opened by the driver. 
 2. **MOUTH OPEN RATIO:** Contains the values of mouth opened and duration of mouth opening of the 
 driver. 
 3. **PULSE_VAL:** Contains the pulse value of the driver. <br>
@@ -80,7 +76,7 @@ During blood circulation in the body, the pumping of blood causes variations
 in the color of skin, that go unnoticed by human eyes but it can be detected with the help of a camera. The most
 suitable place to perform this is the forehead of the subject and the size of the rectangle depends on the space.
 
-### Calculating target variable ### 
+## Calculating target variable ##
 The target variable of our dataset, i.e., ‘RESULT_ACCIDENT’ stores the possibility of accident occurrence given
 a certain value of the forestated features. The value of the target variable is calculated with the help of the following
 algorithm:
@@ -90,7 +86,7 @@ algorithm:
 4. Note down the above three compared values in terms of 0 and 1 to calculate our target variable. <br>
 5. Lastly, RESULT_ACCIDENT=1 if any of the values observed above result in 1, otherwise 0.
 
-###  Prediction Module ###
+##  Prediction Module ##
 With the help of the Scikit Learn library, we were able to fit the prediction models into our dataset. We executed a binary
 classification task, where the featured values result in an accident if the threshold values of the features are exceeded
 according to the algorithm, otherwise, it results in no accident.
@@ -99,19 +95,19 @@ Nearest Neighbours and Naïve Bayes. We compared the accuracy and F1 Scores of a
 the dataset to obtain the model that has the highest accuracy for our dataset. 75% of the dataset values were used
 for training while remaining of the dataset values were used for testing.
 
-### Algorithms ###
+## Algorithms ##
 We have collected more than 2000 instances of data from real-time observation and checked the accidents-prone probability on that dataset with the help of a machine learning algorithm. <br>
 
 ![Screenshot 2024-03-27 150313](https://github.com/AntimaDwivedi/Accident-Prone-Situation-Prediction-of-Vehicle-Using-Machine-Learning-Approaches/assets/56269029/cb6153bb-17d2-445e-9041-ade20078b211)
 <br>
 
-### Experiments and Results  ###
+## Experiments and Results  ##
 For the prediction experiments, each machine learning model computed the accuracy and F1 score of the dataset with  the help of a confusion matrix. The best-obtained result (Accuracy=0.98) is 13 percent points higher than the K-Nearest  Neighbour algorithm. The results can be observed from Table.<br>
 
 Logistic Regression is very close to nearly  perfect, as can be seen from the table. <br>
 ![Screenshot 2024-03-27 150342](https://github.com/AntimaDwivedi/Accident-Prone-Situation-Prediction-of-Vehicle-Using-Machine-Learning-Approaches/assets/56269029/7f91ecd5-8672-4e1b-b004-88561fdb09ac)
 
-### Conclusions ###
+## Conclusions ##
 The proposed method works on stating many values according to the researched count of factors that are greatly responsible for car accidents all over the world, especially in India. With the help of the dataset created,  we built a formula that helps us establish the discrete binary values of the possibility of an accident. This  novel dataset has been very helpful in predicting the accuracy of the approach that we began working with, i.e.,  the factors that contribute to road accidents. According to previous data available as well as the results obtained  from our predictions, we successfully established the relationship between the factors that we started with and the  target variable.
 
 
