@@ -19,7 +19,7 @@ Owing to the novelty of our work, limited datasets were available in the field o
 features, so we extracted the features that will be focussed in this study by using certain programmed detection 
 techniques. Over 2,000 instances of all such features were calculated by simulating an automobile cabin 
 environment and obtaining the value of all features for 4 different drivers, 1 male, and 4 female test subjects. All 
-data collection and processing procedures described in this work were implemented in Python by the authors. 
+data collection and processing procedures described in this work were implemented in Python. 
 These features may be stated as follows: 
 1. **EYE ASPECT RATIO:** Contains the values of the percentage of eye-opened by the driver. 
 2. **MOUTH OPEN RATIO:** Contains the values of mouth opened and duration of mouth opening of the 
